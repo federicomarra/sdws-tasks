@@ -11,7 +11,7 @@ Feature: String Calculator
     When I calculate the addition
     Then the result should be 3
     
-  Scenario: Add productiple string numbers
+  Scenario: Add multiple string numbers
     Given the input is "1,2,3,4,5"
     When I calculate the addition
     Then the result should be 15
@@ -26,17 +26,17 @@ Feature: String Calculator
     When I calculate the addition
     Then the result should be 6
     
-  Scenario: productiple two string numbers
+  Scenario: multiple two string numbers
     Given the input is "10;20"
     When I calculate the product
     Then the result should be 200
     
-  Scenario: productiple numbers
+  Scenario: multiple numbers
     Given the input is "10,2,8"
     When I calculate the product
     Then the result should be 160
     
-  Scenario: productiple numbers with new lines
+  Scenario: multiple numbers with new lines
     Given the input is "2\n3//4"
     When I calculate the product
     Then the result should be 24
