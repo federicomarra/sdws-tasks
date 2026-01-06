@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5d9348ca-3015-4f2c-b571-e4a8513d7323" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_client/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_client/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/example.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_client/features/example.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_client/src/main/java/HelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_client/src/main/java/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_client/src/main/java/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HelloTestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_client/src/test/java/HelloTestSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PersonTestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_client/src/test/java/PersonTestSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/HelloTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_client/src/test/resources/HelloTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/PersonTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_client/src/test/resources/PersonTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/cucumber.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_client/src/test/resources/cucumber.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w1_3_rest1_server/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_server/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w1_3_rest1_server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w1_3_rest1_server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w1_3_rest1_server/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_server/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w1_3_rest1_server/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_server/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w1_3_rest1_server/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_server/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w1_3_rest1_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w1_3_rest1_server/src/main/docker/Dockerfile.jvm" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_server/src/main/docker/Dockerfile.jvm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w1_3_rest1_server/src/main/docker/Dockerfile.legacy-jar" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_server/src/main/docker/Dockerfile.legacy-jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w1_3_rest1_server/src/main/docker/Dockerfile.native" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_server/src/main/docker/Dockerfile.native" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w1_3_rest1_server/src/main/docker/Dockerfile.native-micro" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_server/src/main/docker/Dockerfile.native-micro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w1_3_rest1_server/src/main/java/GreetingResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_server/src/main/java/GreetingResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w1_3_rest1_server/src/main/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_server/src/main/java/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w1_3_rest1_server/src/main/java/PersonResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_server/src/main/java/PersonResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w1_3_rest1_server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w1_3_rest1_server/src/test/java/GreetingTestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_server/src/test/java/GreetingTestSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../w1_3_rest1_server/src/test/resources/GreetingTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../w1_3_rest_server/src/test/resources/GreetingTest.feature" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="11" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="37sgzVWY6ZMaY1ZxaKs0fybD197" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: HelloTest.executor": "Run",
+    "Cucumber Java.Feature: PersonTest.executor": "Run",
+    "Cucumber Java.Feature: StudentTest.executor": "Run",
+    "Cucumber Java.Feature: rest1.executor": "Run",
+    "Cucumber Java.Scenario: Update a student city.executor": "Run",
+    "Cucumber Java.Scenario: change person service to invalid address.executor": "Run",
+    "Cucumber Java.Scenario: hello service returns correct text answer.executor": "Run",
+    "Cucumber Java.Scenario: hello service returns correct xml answer.executor": "Run",
+    "Cucumber Java.Scenario: person service returns correct person.executor": "Run",
+    "Cucumber Java.Scenario: reset person service to default person.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/federicomarra/Documents/GitHub/sdws-tasks/w1_3_rest1_client",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecapSpentCounter">
+    <option name="endsOfQuotaMs" value="1769086827421" />
+    <option name="spentUsd" value="0.020678502" />
+  </component>
+  <component name="RecapUselessUpdatesCounter">
+    <option name="suspendCountdown" value="9" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Feature: StudentTest">
+    <configuration name="Feature: HelloTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="CUCUMBER_CORE_VERSION" value="7" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/HelloTest.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="w1_3_rest_client" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Feature: HelloTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="MakeProject" enabled="true" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: PersonTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="CUCUMBER_CORE_VERSION" value="7" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/PersonTest.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="w1_3_rest_client" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Feature: PersonTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: StudentTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="CUCUMBER_CORE_VERSION" value="7" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/StudentTest.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="w1_3_rest_client" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Feature: StudentTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Update a student city" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="CUCUMBER_CORE_VERSION" value="7" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/StudentTest.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="w1_3_rest_client" />
+      <option name="NAME_FILTER" value="^Update a student city$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin teamcity --name &quot;^Update a student city$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: Update a student city" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Scenario: Update a student city" />
+      <item itemvalue="Cucumber Java.Feature: StudentTest" />
+      <item itemvalue="Cucumber Java.Feature: HelloTest" />
+      <item itemvalue="Cucumber Java.Feature: PersonTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Feature: StudentTest" />
+        <item itemvalue="Cucumber Java.Feature: PersonTest" />
+        <item itemvalue="Cucumber Java.Feature: HelloTest" />
+        <item itemvalue="Cucumber Java.Scenario: Update a student city" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.138" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d9348ca-3015-4f2c-b571-e4a8513d7323" name="Changes" comment="" />
+      <created>1767697454317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1767697454317</updated>
+      <workItem from="1767697455326" duration="16690000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
