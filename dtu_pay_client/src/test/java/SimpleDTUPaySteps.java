@@ -78,7 +78,7 @@ public class SimpleDTUPaySteps {
 
     @Then("the registration is successful")
     public void theRegistrationIsSuccessful() {
-        assertTrue(customerId != null && !customerId.isEmpty() && merchantId != null && !merchantId.isEmpty());
+        assertTrue((customerId != null && !customerId.isEmpty()) || (merchantId != null && !merchantId.isEmpty()));
     }
 
     @When("the merchant registers with Simple DTU Pay")

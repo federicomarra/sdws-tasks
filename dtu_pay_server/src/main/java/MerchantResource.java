@@ -12,7 +12,7 @@ public class MerchantResource {
     MerchantService service = new MerchantService();
 
     @POST
-    @Consumes(MediaType.TEXT_PLAIN)
+    @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Response registerMerchant(String name, @Context UriInfo uriInfo) {
         // Input validation
@@ -25,7 +25,6 @@ public class MerchantResource {
         // Business logic
         String id = service.registerMerchant(name.trim());
 
-        // Generate something similar to: http://host:port/api/merchant/123
         URI location = uriInfo.getAbsolutePathBuilder().path(id).build();
 
         // Response 201 Created with JSON body containing the ID

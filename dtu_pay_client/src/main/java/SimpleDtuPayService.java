@@ -22,7 +22,7 @@ public class SimpleDtuPayService {
                 .request()
                 .post(Entity.json(customer));
 
-        if (response.getStatus() == 200) {
+        if (response.getStatus() == 201) {
             return response.readEntity(String.class);
         } else {
             printError(response);
@@ -36,7 +36,7 @@ public class SimpleDtuPayService {
                 .request()
                 .post(Entity.json(merchant));
 
-        if (response.getStatus() == 200) {
+        if (response.getStatus() == 201) {
             return response.readEntity(String.class);
         } else {
             printError(response);
