@@ -14,16 +14,15 @@ public class CustomerResource {
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
-    public Response registerCustomer(String name, @Context UriInfo uriInfo) {
+    public Response registerCustomer(Customer customer, @Context UriInfo uriInfo) {
         // Input validation
-        if (name == null || name.trim().isEmpty()) {
+        if (customer == null || customer.getName() == null || customer.getName().trim().isEmpty()) {
             return Response.status(Response.Status.BAD_REQUEST)
                     .entity(Map.of("error", "Name of the customer is required"))
                     .build();
         }
-
         // Business logic
-        String id = service.registerCustomer(name.trim());
+        String id = service.registerCustomer(customer.getName().trim());
 
         URI location = uriInfo.getAbsolutePathBuilder().path(id).build();
 

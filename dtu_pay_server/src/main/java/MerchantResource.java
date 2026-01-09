@@ -14,16 +14,15 @@ public class MerchantResource {
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
-    public Response registerMerchant(String name, @Context UriInfo uriInfo) {
+    public Response registerMerchant(Merchant merchant, @Context UriInfo uriInfo) {
         // Input validation
-        if (name == null || name.trim().isEmpty()) {
+        if (merchant == null || merchant.getName() == null || merchant.getName().trim().isEmpty()) {
             return Response.status(Response.Status.BAD_REQUEST)
                     .entity(Map.of("error", "Name of the merchant is required"))
                     .build();
         }
-
         // Business logic
-        String id = service.registerMerchant(name.trim());
+        String id = service.registerMerchant(merchant.getName().trim());
 
         URI location = uriInfo.getAbsolutePathBuilder().path(id).build();
 
