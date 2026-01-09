@@ -12,12 +12,16 @@ public class PaymentResource {
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Response pay(Payment payment) {
-        boolean success = service.pay(payment.getAmount(), payment.getCustomerId(), payment.getMerchantId());
-        return success
-                ? Response.status(Response.Status.CREATED).build()
-                : Response.status(Response.Status.BAD_REQUEST).build();
+        try {
+            boolean success = service.pay(payment.getAmount(), payment.getCustomerId(), payment.getMerchantId());
+            return success
+                    ? Response.status(Response.Status.CREATED).build()
+                    : Response.status(Response.Status.BAD_REQUEST).build();
+        } catch (RuntimeException e) {
+            return Response.status(Response.Status.BAD_REQUEST).entity(e.getMessage()).build();
+        }
     }
-    
+
     @GET
     @Path("/all")
     @Produces(MediaType.APPLICATION_JSON)

@@ -2,9 +2,11 @@ import jakarta.ws.rs.client.Client;
 import jakarta.ws.rs.client.ClientBuilder;
 import jakarta.ws.rs.client.Entity;
 import jakarta.ws.rs.client.WebTarget;
+import jakarta.ws.rs.core.GenericType;
 import jakarta.ws.rs.core.Response;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class SimpleDtuPayService {
     Client client;
@@ -65,18 +67,25 @@ public class SimpleDtuPayService {
                 .request()
                 .post(Entity.json(payment))) {
 
-            return response.getStatus() == 200;
+            if (response.getStatus() != 201 && response.hasEntity()) {
+                error = response.readEntity(String.class);
+            }
+            return response.getStatus() == 201;
         }
     }
 
+    public String getError() {
+        return error;
+    }
+
     // GET /payment/all
-    public ArrayList<Payment> getPayments() {
+    public List<Payment> getPayments() {
         Response response = target.path("payment/all")
                 .request()
                 .get();
 
         if (response.getStatus() == 200) {
-            return response.readEntity(ArrayList.class);
+            return response.readEntity(new GenericType<List<Payment>>() {});
         } else {
             printError(response);
         }

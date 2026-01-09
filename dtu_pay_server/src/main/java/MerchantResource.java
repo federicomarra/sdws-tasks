@@ -9,7 +9,7 @@ import java.util.Map;
 @Path("/merchant")
 public class MerchantResource {
 
-    MerchantService service = new MerchantService();
+    MerchantService service = MerchantService.getInstance();
 
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
@@ -29,7 +29,7 @@ public class MerchantResource {
 
         // Response 201 Created with JSON body containing the ID
         return Response.created(location)
-                .entity(Map.of("id", id))
+                .entity(id)
                 .build();
     }
 

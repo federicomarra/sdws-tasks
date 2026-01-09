@@ -3,7 +3,14 @@ import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class CustomerService {
+    private static final CustomerService INSTANCE = new CustomerService();
     private Map<String, Customer> customers = new ConcurrentHashMap<>();
+
+    private CustomerService() {}
+
+    public static CustomerService getInstance() {
+        return INSTANCE;
+    }
 
     public String registerCustomer(String name) {
         String id = UUID.randomUUID().toString();

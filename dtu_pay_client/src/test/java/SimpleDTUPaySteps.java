@@ -6,6 +6,7 @@ import io.cucumber.java.en.When;
 import org.junit.After;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -16,7 +17,8 @@ public class SimpleDTUPaySteps {
     private String customerId, merchantId;
     private final SimpleDtuPayService dtuPay = new SimpleDtuPayService();
     private boolean successful = false;
-    private ArrayList<Payment> payments;
+    private List<Payment> payments;
+    private String errorMessage;
 
     // Successful payment scenario
     @Given("a customer with name {string}")
@@ -55,9 +57,8 @@ public class SimpleDTUPaySteps {
     }
 
     @And("an error message is returned saying {string}")
-    public void anErrorMessageIsReturnedSayingNonExistentId(String arg0, String arg1) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    public void anErrorMessageIsReturnedSayingNonExistentId(String errorMessage) {
+        assertTrue(dtuPay.getError().contains(errorMessage));
     }
 
     @Given("a customer with name {string}, who is registered with Simple DTU Pay")

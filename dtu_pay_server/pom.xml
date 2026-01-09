@@ -90,6 +90,12 @@
             <version>5.10.0</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-junit-platform-engine</artifactId>
+            <version>7.14.0</version>
+            <scope>test</scope>
+        </dependency>
         <!--  These two dependencies allow to run JUnit 4 tests and Cucumber tests. -->
         <dependency>
             <groupId>org.junit.vintage</groupId>
